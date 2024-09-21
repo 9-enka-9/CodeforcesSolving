@@ -3,7 +3,7 @@ using namespace std;
 
 int main(){
 	freopen("BAI2.INP", "r", stdin);
-	//freopen("BAI2.OUT", "w", stdout);
+	freopen("BAI2.OUT", "w", stdout);
 	int n;
 	cin>>n;
 	int x[n+1], y[n+1];
