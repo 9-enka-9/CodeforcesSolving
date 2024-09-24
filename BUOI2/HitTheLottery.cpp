@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-	unsigned long long n, times=0;
+	long long n, times=0;
 	cin>>n;
 	int a[] = {1,5,10,20,100};
 	for (int i=4;i>=0;i--){

@@ -2,14 +2,11 @@
 using namespace std;
 
 int main() {
-	unsigned int n, times=0;
-	unsigned long long s;
+	long long n,s=0;
 	cin>>n>>s;
-	while (s!=0 and n!=0){
-		times+=(s/n);
-//		cout<<s<<" "<<n<<" "<<times<<endl;
-		s%=n;
-		n--;
+	if (s%n==0){
+		cout<<s/n;
+	} else {
+		cout<<s/n+1
 	}
-	cout<<times;
 }
