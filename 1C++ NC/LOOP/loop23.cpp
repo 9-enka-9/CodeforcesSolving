@@ -30,8 +30,13 @@ int main(){
 	cout<<endl;
 	int t=1;
 	for (int i=1;i<=n;i++){
-		for (int j=0;j<i;j++){
-			cout<<j*5+i<<" ";
+		for (int j=1;j<=i;j++){
+			if (j==1){
+				cout<<i;
+			} else {
+				cout<<i+(n-j+i-1);
+			}
+			cout<<" ";
 		}
 		cout<<endl;
 	}
